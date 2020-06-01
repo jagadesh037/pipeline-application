@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('intro') {
             steps {
-                install httpd
+                yum install -y httpd
             }
         }
     }
